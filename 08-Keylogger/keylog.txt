@@ -1,0 +1,3 @@
+sudo [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace]  [Key.backspace] sudo apt update
+kali123
+ [Key.ctrl] c
