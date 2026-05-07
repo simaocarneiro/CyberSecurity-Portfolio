@@ -31,12 +31,3 @@ e o timestamp do incidente num ficheiro de log.
 ### Evidências:
 * **Log Gerado:** O ficheiro 'honeypot_log.txt' armazena o histórico de todas as interações.
 * **Alerta em Tempo Real:** O terminal exibe um alerta visual assim que a ligação é estabelecida.
-
----
-
-## Valor para o Portfólio de Cibersegurança
-A implementação de Honeypots visa a demonstração de conhecimento avançaado de **Defesa Ativa**. Em vez de uma postura puramente reativa, este projeto
-mostra como um analista de segurança pode criar armadilhas para obter vantagem tática sobre um atacante.
-
-**Nota:** Este projeto foi realizado em ambiente de rede local controlada para fins educativos. O uso de Honeypots em ambientes corporativos requer
-planeamento para evitar que o próprio Honeypot seja usado como um ponto de salto para a rede interna.
