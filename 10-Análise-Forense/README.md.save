@@ -1,0 +1,31 @@
+# Projeto 10: Análise Forense - Recuperação de Dados (File Carving)
+
+## Visão Geral
+Este projeto demonstra técnicas de **Digital Forensics** para a recuperação de
+ficheiros apagados num sistema de ficheiros Linux (ext4). A técnica utilizada é o
+**File Carving**, que ignora a tabela de ficheiros do sistema e procura assintaturas
+binárias (headers/footers) diretamente nos blocos de dados.
+
+---
+
+## Conceitos Forenses
+* **Data Persistence:** Quando um ficheiro é apagado ('rm'), o sistema operativo
+apenas marca o espaço como "livre", mas os bits originais permanecem no disco até
+serem sobreescritos.
+* **File Carving:** O processo de extrair ficheiros de um dump de memória ou imagem
+de disco sem o auxílio de metadados do sistema de ficheiros.
+
+---
+
+## Metodologia Aplicada
+1. **Criação de Evidência:** Foi gerada uma imagem de disco virtual ('.img') para simular uma partição isolada.
+2. **O Incidente:** Um ficheiro de texto confidencial foi criado e permanentemente apagado via terminal.
+3. **A Investigação:** Utilizei a ferramenta **Foremost** para analisar a imagem binária do disco.
+4. **Resultado:** O ficheiro foi recuperado com sucesso, preservando a integridade do seu conteúdo original.
+
+---
+
+## Conclusão
+Este projeto destaca a importância da **Sanitização de Dados**. Para um analista
+de segurança, prova que a eliminação simples de ficheiros não é suficiente para
+proteger dados sensíveis contra uma investigação forense especializada.
