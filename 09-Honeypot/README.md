@@ -23,7 +23,7 @@ desenhado especificamente para ser sondado, atacado ou comprometido.
 Nesta implementação, o script 'honeypot.py' abre um socket TCP na porta **8080** (comumente usada para serviços web alternativos ou proxies).
 
 ### Fluxo do Ataque Simuladdo:
-1. **Execuçãoo:** O Honeypot é ativado e fica "à escuta".
+1. **Execução:** O Honeypot é ativado e fica "à escuta".
 2. **Tentativa de Ligação:** Utilizando a ferramenta 'netcat' (nc), simulammos um atacante a tentar aceder à porta aberta.
 3. **Resposta e Registo:** O Honeypot envia uma mensagem de erro genérica ("Access Denied") para manter a ilusão, enquanto regista simultaneamente o IP
 e o timestamp do incidente num ficheiro de log.
