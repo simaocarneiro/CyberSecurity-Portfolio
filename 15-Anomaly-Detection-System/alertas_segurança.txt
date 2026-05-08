@@ -1,0 +1,3 @@
+[2026-05-08 15:01:31] VOLUME ANORMAL: 1569 caracteres detetados de uma vez!
+[2026-05-08 15:01:31] DADOS SENSÍVEIS: Palavra-chave 'password' detetada no log!
+[2026-05-08 15:01:31] DADOS SENSÍVEIS: Palavra-chave 'admin' detetada no log!
