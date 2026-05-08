@@ -15,3 +15,6 @@ Este repositório documenta a minha jornada de aprendizagem técnica através de
 10. [Análise-Forense](./10-Análise-Forense) - Concluído
 11. [Regras-do-Firewall](./11-Regras-do-Firewall) - Concluído
 12. [Engenharia-reversa-de-malware](./12-Engenharia-reversa-de-malware) - Concluído
+13. [Sistema-2FA](./13-Sistema-2FA) - Concluído
+14. [Secure-Web-App](./14-Secure-Web-App) - Concluído
+15. [Anomaly-Detection-System](./15-Anomaly-Detection-System) - Concluído
